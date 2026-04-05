@@ -4,7 +4,8 @@
 
 [branches]
 main = "gcp_prod"
-perennial = ["gcp_uat"]
+perennials = ["gcp_uat", "gcp_release"] #test "gcp_test_2 later"
 
 [create]
-new-branch-type = 'feature'
+# Comment out as we want feature branches over perennials for now
+# new-branch-type = 'perennial'
