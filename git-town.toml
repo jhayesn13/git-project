@@ -3,4 +3,8 @@
 # See https://www.git-town.com/configuration-file for details
 
 [branches]
-main = "main"
+main = "gcp_prod"
+perennial = ["gcp_uat"]
+
+[create]
+new-branch-type = 'feature'
